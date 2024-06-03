@@ -1,0 +1,20 @@
+*{
+    background-color: aliceblue;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 3em;
+}
+
+#login{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#registation{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
