@@ -9,12 +9,44 @@
     column-gap: 3em;
 }
 
-#login{
+#loginInfo{
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-#registation{
+#registationInfo{
     grid-column-start: 2;
     grid-column-end: 2;
 }
+
+
+form{
+    padding: .5em;
+}
+
+#login, #registration{
+    width: 25%;
+    margin: .5em .5em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    border-color: rgba(62, 62, 62, .25);
+}
+
+input{
+    margin-top: .5em;
+}
+
+.button{
+    margin-top: 1em;
+}
+#loginButton, #registerButton{
+    border: 1px solid black;
+    background-color: rgb(156, 196, 232);
+    color: black;
+    padding: 0.25em;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(111, 127, 140);
+}
+

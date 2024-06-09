@@ -9,17 +9,28 @@
 <body>
     <h1>Welcome to the page</h1>
     <div id = "info">
-        <div id = "login">
-            <p>Enter the following to login</p>
-            <input id = "username" placeholder = "Enter your username"></input>
-            <input type = "password" id = "password" placeholder = "Enter your password"></input>
-        </div>
+        <form id = "loginInfo">
+            <div id = "login">
+                <p>Enter the following to login</p>
+                <input type = "text" class = "username" placeholder = "Enter your username"></input>
+                <input type = "password" class = "password" placeholder = "Enter your password"></input>
+                <div class = "button">
+                    <span id = "loginButton">Login</span>
+                </div>
+            </div>
+        </form>
 
-        <div id = "registration">
-            <p>Enter the following to register</p>
-            <input id = "username" placeholder = "Enter your username"></input>
-            <input type = "password" id = "password" placeholder = "Enter your password"></input>
-        </div>
+        <form id = "registationInfo">
+            <div id = "registration">
+                <p>Enter the following to register</p>
+                <input type = "text" class = "username" placeholder = "Enter your username"></input>
+                <input type = "password" class = "password" placeholder = "Enter your password"></input>
+                <input type = "email" class = "email" placeholder="Enter your email"></input>
+                <div class = "button">
+                    <span id = "registerButton">Register</span>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
