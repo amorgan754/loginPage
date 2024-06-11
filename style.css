@@ -2,26 +2,13 @@
     background-color: aliceblue;
 }
 
-#info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 3em;
+form{
+    padding: .5em;
 }
 
 #loginInfo{
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-
-#registationInfo{
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-
-form{
-    padding: .5em;
+    margin: auto;
+    width: 50%;
 }
 
 #login, #registration{
@@ -49,4 +36,3 @@ input{
     cursor: pointer;
     box-shadow: 10px 10px 5px rgb(111, 127, 140);
 }
-
