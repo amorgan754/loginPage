@@ -2,17 +2,21 @@
     background-color: aliceblue;
 }
 
+#inputs{
+    display: flex;
+    justify-content: center;
+}
+
 form{
     padding: .5em;
 }
 
-#loginInfo{
-    margin: auto;
-    width: 50%;
+#loginInfo, #registrationInfo{
+    display: grid;
 }
 
 #login, #registration{
-    width: 25%;
+    width: 50%;
     margin: .5em .5em;
     margin-bottom: 1em;
     padding-top: .5em;
@@ -26,6 +30,7 @@ input{
 .button{
     margin-top: 1em;
 }
+
 #loginButton, #registerButton{
     border: 1px solid black;
     background-color: rgb(156, 196, 232);
